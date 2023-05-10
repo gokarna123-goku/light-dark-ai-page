@@ -15,6 +15,23 @@ a{
 li{
     list-style: none;
 }
+::-webkit-input-placeholder {
+    font-size: 1.0rem;
+    color: #808080;
+}
+::-moz-placeholder {
+    font-size: 1.0rem;
+    color: #808080;
+}
+:-ms-input-placeholder {
+    font-size: 1.0rem;
+    color: #808080;
+}
+::placeholder {
+    font-size: 1.0rem;
+    color: #808080;
+}
+
 .main_section{
     width: 100%;
     height: 100vh;
@@ -62,6 +79,22 @@ nav li a{
     color: #f1f1f1;
     font-size: 1.15rem;
     font-weight: 500;
+}
+
+.nav_right{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+.search_input{
+    width: 250px;
+    height: 38px;
+    background: transparent;
+    border: 1px solid #f1f1f1;
+    outline: none;
+    padding: 0 15px;
+    font-size: 1.0rem;
+    color: #808080;
 }
 
 
