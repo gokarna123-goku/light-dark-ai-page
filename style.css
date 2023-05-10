@@ -99,5 +99,23 @@ nav li a{
 }
 
 
+.hero_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.hero_data{
+    width: 62%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    row-gap: 1.2rem;
+}
+
+
 
 /* END */
