@@ -100,7 +100,7 @@ nav li a:hover{
     width: 25px;
     height: 25px;
     background-image: url('./img/sun.png');
-    background-size: cover;
+    background-size: contain;
     cursor: pointer;
 }
 .search_input{
@@ -151,6 +151,7 @@ nav li a:hover{
     letter-spacing: 0.15rem;
     color: #309ac7;
     text-transform: uppercase;
+    text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.1);
 }
 .desc{
     font-size: 1.09rem;
@@ -197,12 +198,27 @@ nav li a:hover{
     background: #f9f9f9;
     color: #292929;
 }
-.light-mode p{
-    color: blue;
+.light-mode .logo_section{
+    color: #1d1d1d;
+}
+.light-mode nav li a{
+    color: #292929;
+}
+.light-mode nav li .active{
+    color: #309ac7;
 }
   
 .light-mode #toggle-icon {
     background-image: url('./img/sun.png');
+}
+.light-mode .search_input{
+    color: #292929;
+}
+.light-mode .title{
+    color: #292929;
+}
+.light-mode .brand_name{
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
   
 
