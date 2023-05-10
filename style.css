@@ -114,13 +114,19 @@ nav li a{
     align-items: flex-start;
     justify-content: start;
     flex-direction: column;
-    row-gap: 1.0rem;
+    row-gap: 0.7rem;
 }
 .discount_title{
     font-size: 1.2rem;
     font-weight: 400;
     color: #808080;
     letter-spacing: 0.15rem;
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #f1f1f1;
+    letter-spacing: 0.1rem;
 }
 
 
