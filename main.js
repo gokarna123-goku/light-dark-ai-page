@@ -1,7 +1,7 @@
 //
 
-function toggleMode() {
-  var body = document.querySelector("body");
+function changeMode() {
+  var body = document.querySelector(".main_section");
   var toggleIcon = document.querySelector("#toggle-icon");
 
   body.classList.toggle("light-mode");
