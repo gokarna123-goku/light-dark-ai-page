@@ -182,7 +182,8 @@ nav li a:hover{
     height: 40px;
     border-radius: 4px;
     background: var(--secondary);
-    border: 2px solid --secondary;
+    border: 2px solid var(--secondary);
+    outline: none;
     font-size: 1.1rem;
     color: var(--primary-light);
     font-weight: 600;
@@ -192,7 +193,7 @@ nav li a:hover{
 }
 .shop_now:hover{
     background: transparent;
-    border: 2px solid --secondary;
+    border: 2px solid var(--secondary);
     color: var(--secondary);
 }
 
@@ -222,6 +223,9 @@ nav li a:hover{
     color: var(--primary-light);
 }
 .light-mode nav li .active{
+    color: var(--secondary);
+}
+.light-mode nav li a:hover{
     color: var(--secondary);
 }
   
