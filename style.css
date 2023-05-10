@@ -26,7 +26,17 @@ nav{
     align-items: center;
     column-gap: 1.5rem;
 }
-
+.logo_section{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+}
 
 
 
