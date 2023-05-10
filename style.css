@@ -108,12 +108,24 @@ nav li a{
     gap: 1.5rem;
 }
 .hero_data{
-    width: 62%;
+    width: 45%;
     height: auto;
     display: flex;
     align-items: flex-start;
     justify-content: start;
-    row-gap: 1.2rem;
+    flex-direction: column;
+    row-gap: 1.0rem;
+}
+.hero_img{
+    width: 50%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero_img img{
+    width: 100%;
+    height: 100%;
 }
 
 
