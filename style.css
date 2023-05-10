@@ -51,7 +51,7 @@ nav{
 .nav_left_section{
     display: flex;
     align-items: center;
-    column-gap: 1.5rem;
+    column-gap: 1.7rem;
 }
 .logo_section{
     display: flex;
@@ -90,11 +90,12 @@ nav li a{
     width: 250px;
     height: 38px;
     background: transparent;
-    border: 1px solid #f1f1f1;
+    border: 1px solid #808080;
     outline: none;
     padding: 0 15px;
     font-size: 1.0rem;
     color: #808080;
+    border-radius: 4px;
 }
 
 
