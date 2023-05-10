@@ -34,7 +34,9 @@ li{
     width: 100%;
     height: 100vh;
     background: #1d1d1d;
+    /* background: #f9f9f9; */
     color: #f1f1f1;
+    /* color: #292929; */
     overflow: hidden;
     padding: 50px 150px;
 }
@@ -94,6 +96,11 @@ nav li a:hover{
     display: flex;
     align-items: center;
     column-gap: 1.5rem;
+}
+.toggle_mode_section{
+    /* background: #fff; */
+    width: 30px;
+    height: 30px;
 }
 .search_input{
     width: 250px;
