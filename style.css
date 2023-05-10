@@ -116,6 +116,14 @@ nav li a{
     flex-direction: column;
     row-gap: 1.0rem;
 }
+.discount_title{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #808080;
+    letter-spacing: 0.15rem;
+}
+
+
 .hero_img{
     width: 50%;
     height: 85vh;
