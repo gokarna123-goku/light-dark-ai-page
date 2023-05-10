@@ -10,7 +10,18 @@
     background: #313131;
     color: #f1f1f1;
     overflow: hidden;
+    padding: 50px 150px;
 }
+
+nav{
+    width: 100px;
+    height: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 
 
