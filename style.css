@@ -34,9 +34,7 @@ li{
     width: 100%;
     height: 100vh;
     background: #1d1d1d;
-    /* background: #f9f9f9; */
     color: #f1f1f1;
-    /* color: #292929; */
     overflow: hidden;
     padding: 50px 150px;
 }
@@ -95,12 +93,15 @@ nav li a:hover{
 .nav_right{
     display: flex;
     align-items: center;
-    column-gap: 1.5rem;
+    column-gap: 2.5rem;
 }
-.toggle_mode_section{
-    /* background: #fff; */
+#toggle-icon {
+    display: block;
     width: 30px;
     height: 30px;
+    background-image: url('./img/sun.png');
+    background-size: cover;
+    cursor: pointer;
 }
 .search_input{
     width: 250px;
@@ -192,6 +193,18 @@ nav li a:hover{
 
 
 /* Light Mode */
+.light-mode {
+    background: #f9f9f9;
+    color: #292929;
+}
+.light-mode p{
+    color: blue;
+}
+  
+.light-mode #toggle-icon {
+    background-image: url('./img/sun.png');
+}
+  
 
 
 
