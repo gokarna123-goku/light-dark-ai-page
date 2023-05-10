@@ -14,12 +14,17 @@
 }
 
 nav{
-    width: 100px;
+    width: 100%;
     height: auto;
     padding: 10px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.nav_left_section{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
 }
 
 
